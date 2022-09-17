@@ -87,8 +87,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS
+- NodeJS
+- ExpressJS
+- Webpack
+- Workbox
+- IndexedDB
 
 ### What I Learned
 
