@@ -105,7 +105,7 @@ I found that this line kept displaying an error in the browser even where an err
 
 ### Continued Development
 
-In the future, I would like to learn more about webpack in general.  Admittedly, I still find it very tedious and daunting.  However, with practice, I hope to better understand all the amazing things it can do!
+In the future, I would like to learn more about webpack in general.  Admittedly, I still find it quite confusing and daunting.  However, with practice, I hope to better understand all the amazing things it can do!
 
 ### Useful Resources
 
