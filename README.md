@@ -68,7 +68,10 @@ THEN I should have proper build scripts for a webpack application
 
 ### Screenshot
 
-![](/pwa-text-editor/client/src/images/jate.png)
+![](/pwa-text-editor/client/src/images/jate-demo.gif)
+![](/pwa-text-editor/client/src/images/manifest.png)
+![](/pwa-text-editor/client/src/images/service-workers.png)
+![](/pwa-text-editor/client/src/images/indexeddb.png)
 ![](/pwa-text-editor/client/src/images/asset-cache.png)
 
 ### Links
@@ -88,15 +91,26 @@ THEN I should have proper build scripts for a webpack application
 
 ### What I Learned
 
+During this challenge, I discovered that when I worked with webpack, I had to delete the `dist` folder and run `npm run build` after making changes in order to troubleshoot errors.  Before doing this, I found that even after I troubleshot errors, they would still appear due to caching.
 
+Additionally, I learned that I can use Chrome's Application > Storage area to clear site data before rerunning an application such as `J.A.T.E`, and then restart `J.A.T.E` using `npm run start:dev`.  This helped to clear out errors from the cache after making code changes.
+
+Lastly, I added a line of code at the top of my `getDB` function in `database.js` that read as follows:
+
+```JavaScript
+console.error('getDb not implemented`);
+```
+
+I found that this line kept displaying an error in the browser even where an error did not occur.  Once I removed this line, the application seemed to work correctly.
 
 ### Continued Development
 
-In the future, I would like to add more functionality to this text editor.
+In the future, I would like to learn more about webpack in general.  Admittedly, I still find it very tedious and daunting.  However, with practice, I hope to better understand all the amazing things it can do!
 
 ### Useful Resources
 
 - [CodeMirror](https://codemirror.net/5/mode/javascript/)
+- [iDB: 3 ways to delete Chrome apps on Mac](https://www.idownloadblog.com/2022/07/04/how-to-delete-chrome-apps-on-mac/)
 - [MDN Web Docs: Using IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
 
 ## Author
