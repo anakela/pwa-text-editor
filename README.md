@@ -68,11 +68,11 @@ THEN I should have proper build scripts for a webpack application
 
 ### Screenshot
 
-![](/pwa-text-editor/client/src/images/jate-demo.gif)
-![](/pwa-text-editor/client/src/images/manifest.png)
-![](/pwa-text-editor/client/src/images/service-workers.png)
-![](/pwa-text-editor/client/src/images/indexeddb.png)
-![](/pwa-text-editor/client/src/images/asset-cache.png)
+![](./client/src/images/jate-demo.gif)
+![](./client/src/images/manifest.png)
+![](./client/src/images/service-workers.png)
+![](./client/src/images/indexeddb.png)
+![](./client/src/images/asset-cache.png)
 
 ### Links
 
