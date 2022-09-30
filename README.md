@@ -115,6 +115,8 @@ In the future, I would like to learn more about webpack in general.  Admittedly,
 
 ## Author
 
+If you have any questions or experience any technical difficulties, please feel free to contact me on GitHub or LinkedIn.
+
 - GitHub - [https://github.com/anakela](https://github.com/anakela)
 - LinkedIn - [https://www.linkedin.com/in/anakela/](https://www.linkedin.com/in/anakela/)
 
